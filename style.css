@@ -1,0 +1,244 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ html{
+    scroll-behavior: smooth;
+ }
+body{
+    background-image: url(IMAGES/ako1.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100% 800px;
+}
+.ch{
+    width: 70px;
+    height: 60px;
+}
+
+header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+}
+
+
+nav a{
+    text-decoration: none;
+    color: rgb(75, 33, 3);
+    text-align: center;
+    margin: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style:inherit;
+}
+.ni{
+    color: white;
+}
+
+.n a{
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    width: 20px;
+    height: 70px;
+    padding: 20px;
+}
+nav a img{
+    width: 30px;
+    height: 30px;
+    margin: -12px;
+}
+h1{
+    font-size: 80px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+section{
+    margin: 40px;
+    margin-top: -5px;
+}
+p{
+    font-family:sans-serif;
+    font-size: 28px;
+}
+ .get a{
+    color: white;
+    background-color: rgb(68, 28, 1);
+    font-family: sans-serif;
+    padding: 20px;
+    border-radius: 9px;
+    font-size: 14px
+
+}
+.g{
+    text-decoration: none;
+}
+.w{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+} 
+.w p{
+    font-size: 22px;
+}
+
+.why{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.c{
+    margin-right: 110px;
+}
+#AboutUs{
+    margin-top: 200px;
+}
+
+.why1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    
+
+}
+.i1 img{
+    width: 500px;
+    height: 200px;
+    border-radius: 12px;
+    margin: 10px;
+}
+
+#AboutUs1{
+    margin-top: -10px;
+}
+#tile{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows: 400px 400px;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 80px; 
+    gap: 69px;
+    flex-flow: row wrap;
+
+} 
+
+ .img img{
+    width: 300px;
+    height: 250px;
+    /* padding: 10px; */
+ }
+ .cho{
+    box-shadow: 0px 1px 10px rgba(210, 105, 30, 0.267);
+    border-radius: 7px;
+
+ }
+ .text{
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 20px;
+ }
+ #t{
+    font-size: 19px;
+    padding: 7px;
+ }
+#Offer{
+    background-image: url(IMAGES/milo1.jpg );
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.575); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    flex-flow: row wrap;
+    margin-left: 100px;
+ }
+.milo{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+     background-blend-mode:overlay;
+    background-color: rgba(0, 0, 0, 0.555);
+    
+}
+.offer{
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 37vh;
+    margin: 20px;
+    box-sizing: border-box;
+    border-radius: 100%;
+}
+.offer img{
+    width: 300px;
+    height: 37vh;
+    border-radius: 100%;
+   
+}
+.offer h3{
+    color: rgb(251, 255, 3);
+    text-shadow: 2px 10px 4px black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    margin-top: -90px;
+    margin-left: 15px;
+    text-align: center;
+}
+.bou{
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(2, 100px);
+    justify-content: center;
+    align-items: center;
+    gap: 94px 254px;
+    width: 100%;
+    margin-left: -116px;
+}
+.bou1{
+    background-color: rgb(6, 132, 235);
+    width: 400px;
+    height: 30vh;
+}
+.bou2{
+    background-color: rgb(16, 2, 143);
+    width: 400px;
+    height: 30vh;
+}
+.bou3{
+    background-color: rgb(62, 127, 247);
+    width: 400px;
+    height: 30vh;
+}
+.bou4{
+    background-color: rgb(3, 16, 136);
+    width: 400px;
+    height:30vh;
+}
+.bou5{
+    background-color: rgb(65, 115, 252);
+    width: 400px;
+    height: 30vh;
+}
+.bou6{
+    background-color: rgb(5, 2, 182);
+   width: 400px;
+    height: 30vh;
+}
+.bou7{
+    background-color: rgb(52, 111, 240);
+    width: 400px;
+    height: 30vh;
+}
+.bou8{
+    background-color: rgb(19, 5, 209);
+    width: 400px;
+    height: 30vh;
+}
+.bou div{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 80px;
+}
